@@ -8,15 +8,15 @@ export const Header: React.FC<React.PropsWithChildren> = ({ children }) => {
       <div>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <NavLink className={styles.logo} to="/">
-            <img alt="Gamba logo" src="/logo-2.svg" />
+            <img alt="roulettes dogey" src="/logo-2.svg" />
           </NavLink>
         </div>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <div className={styles.externalLinks}>
-            <a href="https://github.com/gamba-labs/gamba" target="_blank" rel="noreferrer">
+            <a href="https://discord.com/invite/w9PGqMxpGN" target="_blank" rel="noreferrer">
               Github
             </a>
-            <a href="https://explorer.gamba.so" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/dogeysolana" target="_blank" rel="noreferrer">
               Stats
             </a>
           </div>
